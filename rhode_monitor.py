@@ -13,14 +13,12 @@ REDDIT_USER_AGENT = os.getenv("REDDIT_USER_AGENT")
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
-# Keywords to monitor (adjust these for your use case)
 KEYWORDS = [
     "DM to buy",
     "for sale",
     "to sell",
 ]
 
-# Subreddits to monitor (you can change to "all" or add more with +)
 SUBREDDITS = "rhodeskin"
 
 
